@@ -1,8 +1,8 @@
 {
 	"debug.autoExpandLazyVariables": true,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true,
-		"source.addMissingImports": true,
+		"source.organizeImports": "explicit",
+		"source.addMissingImports": "explicit"
 	},
 	"editor.formatOnSaveMode": "modifications",
 	"java.autobuild.enabled": true,
