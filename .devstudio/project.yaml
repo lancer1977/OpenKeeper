@@ -1,0 +1,29 @@
+schema: 1
+
+project:
+  name: OpenKeeper
+  kind: java-game
+  owner: lancer1977
+
+languages:
+  - java
+  - glsl
+  - xml
+
+frameworks:
+  - gradle
+  - jmonkeyengine
+  - java-21
+
+validation:
+  validate: ./scripts/validate.sh
+  build: ./gradlew build
+
+tracking:
+  primary: repo-state
+  repo-state: repo-state.md
+
+docs:
+  index: docs/index.md
+  maintenance: docs/maintenance.md
+  repo_state: repo-state.md
