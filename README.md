@@ -5,13 +5,25 @@ An open source remake of the Dungeon Keeper II game and engine.
 
 Goal is to fully implement the game (version 1.7 with 3 bonus packs) as open source cross platform version, with minimal or no changes at all, using the original game assets. So it will require the original game to play / develop. Future development could have fan made graphics (to at least enable standalone version) and features.
 
-OpenKeeper is written in Java using [JMonkeyEngine](http://jmonkeyengine.org/). Currently we are using JME 3.6 + Java 21.
+OpenKeeper is written in Java using [JMonkeyEngine](http://jmonkeyengine.org/). Currently we are using JME 3.7 + Java 21.
 
 Builds are available from the CI:
 
 [![Build Status](https://github.com/tonihele/OpenKeeper/actions/workflows/gradle.yml/badge.svg)](../../actions)
 
 [Here is my YouTube channel where I sometimes publish videos of the progress](https://www.youtube.com/user/Kaljis83/videos).
+
+Validation
+==========
+
+Run the repo validation check from the workspace root:
+
+```bash
+./scripts/validate.sh
+```
+
+That script verifies the Gradle wrapper and build configuration expected by the
+current repository shape.
 
 Contact
 ========
@@ -50,4 +62,3 @@ Resources
  * [Sound & Video formats](http://wiki.multimedia.cx/index.php?title=Electronic_Arts_Formats)
  * [A write-up about the walls in DK2](http://simonschreibt.de/gat/dungeon-keeper-2-walls/)
  * [DK2 editor manual, contains a lot of hints on how the game should work](http://keeper.lubiki.pl/dk2_docs/dk2_editor_manual.htm)
-
